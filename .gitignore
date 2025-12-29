@@ -1,0 +1,102 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.pnpm-store/
+target/
+_build/
+deps/
+*.ez
+erl_crash.dump
+.fetch
+__pycache__/
+*.py[cod]
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.docusaurus/
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Environment files
+.env*
+!.env.example
+
+# IDE/Editor
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+.sublime-*
+
+# OS files
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+test-results/
+playwright-report/
+.coverage
+htmlcov/
+*.tsbuildinfo
+.turbo/
+
+# Infrastructure
+*.sqlite
+*.db
+*.sqlite3
+docker-compose.override.yml
+
+# Vercel
+.vercel
+
+# Rust
+**/*.rs.bk
+*.pdb
+Cargo.lock
+
+# Python
+*.py[cod]
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Elixir/Phoenix
+_build/
+deps/
+*.ez
+erl_crash.dump
+.fetch
+
+# Misc
+*.pem
+.DS_Store
+

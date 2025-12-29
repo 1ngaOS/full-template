@@ -1,0 +1,10 @@
+packages:
+  - 'apps/*/frontend'
+  - 'apps/*/backend'
+  - 'apps/*/docs'
+  - 'apps/*/mobile'
+  - 'shared/*/frontend'
+  - 'shared/*/backend'
+  - 'shared/*/docs'
+  - 'shared/docs'
+
