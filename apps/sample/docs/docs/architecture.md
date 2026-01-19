@@ -17,7 +17,7 @@ apps/sample/
 
 - **Framework**: SvelteKit
 - **Styling**: Tailwind CSS v4
-- **Build**: Static Site Generation (SSG)
+- **Build**: Server-side rendering (SSR)
 - **Testing**: Playwright
 
 ## Backend Architecture

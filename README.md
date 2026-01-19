@@ -66,7 +66,7 @@ pnpm sample:docs build
 
 ### Sample App
 
-- **Frontend** (`apps/sample/frontend`): SvelteKit with static site generation, Tailwind CSS v4
+- **Frontend** (`apps/sample/frontend`): SvelteKit with SSR, Tailwind CSS v4
 - **Backend** (`apps/sample/backend`): Rust API server with Axum
 - **Documentation** (`apps/sample/docs`): Docusaurus documentation site
 
@@ -89,7 +89,7 @@ This monorepo follows strict project rules:
 
 - **pnpm workspaces** - Package manager and workspace configuration
 - **Turborepo** - Build orchestration and caching
-- **SvelteKit** - Frontend framework (static site generation)
+- **SvelteKit** - Frontend framework (SSR)
 - **Rust** - Backend language
 - **Docusaurus** - Documentation framework
 - **Tailwind CSS v4** - Styling framework
@@ -100,7 +100,7 @@ This monorepo follows strict project rules:
 2. **Shared Services**: Global services go in `shared/` folder
 3. **Documentation**: Every app MUST have a `docs` directory with Docusaurus
 4. **Package Manager**: MUST use pnpm, not npm or yarn
-5. **Frontend**: MUST use SvelteKit with static adapter
+5. **Frontend**: MUST use SvelteKit with SSR adapter
 6. **Backend**: MUST use Rust or Python
 7. **Testing**: MUST include Playwright for frontend, comprehensive tests for backend
 
